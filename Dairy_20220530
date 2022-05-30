@@ -1,0 +1,8 @@
+1.cdodes
+  https://docs.python.org/3/library/codecs.html?highlight=codecs
+  [Standard Encodings]
+  Note:
+    built-in codecs: C functions or mapping tables with dictionaries.
+    aliases include spelling alternatives, hyphen, and underscores.
+    CPython: bypass the codecs lookup machinery to improve performance.
+             (utf-8,iso-8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf-32)
