@@ -5,4 +5,6 @@
     built-in codecs: C functions or mapping tables with dictionaries.
     aliases include spelling alternatives, hyphen, and underscores.
     CPython: bypass the codecs lookup machinery to improve performance.
-             (utf-8,iso-8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf-32)
+             (utf-8, utf8, latin-1, latin1, iso-8859-1, iso8859-1, mbcs (Windows only), ascii, us-ascii, utf-16, utf16, utf-32, utf32,)
+             alternative aliases may result in slower execution.
+             
